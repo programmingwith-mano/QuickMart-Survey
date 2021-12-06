@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserForm } from './components/UserForm';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { AddProduct } from './AddProduct';
 import SearchAppBar from './components/SearchAppBar';
 
