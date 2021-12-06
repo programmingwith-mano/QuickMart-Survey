@@ -51,11 +51,11 @@ export default function FormPersonalDetails() {
   return (
     <MuiThemeProvider>
       <>
-          <Dialog
+          {/* <Dialog
             open
             fullWidth
             maxWidth='md'
-          >
+          > */}
     <Box
       sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 400 }}
       
@@ -98,7 +98,7 @@ export default function FormPersonalDetails() {
         Item Seven
       </TabPanel>
     </Box>
-    </Dialog>
+    {/* </Dialog> */}
     </>
     </MuiThemeProvider>
   );
