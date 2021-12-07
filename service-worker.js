@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/QuickMart-Survey/precache-manifest.2a1da98743f7607b9972b530e870e8ce.js"
+  "/QuickMart-Survey/precache-manifest.6b90017fc2ccf79381ee2a195fee9162.js"
 );
 
 self.addEventListener('message', (event) => {
