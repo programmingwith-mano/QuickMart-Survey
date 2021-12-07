@@ -21,6 +21,10 @@ export class FormUserDetails extends Component {
             maxWidth='sm'
           > */}
             <AppBar title="Enter User Details" />
+            <br/>
+            <Typography align="center" variant="h6" gutterBottom component="div">
+              Quick Mart - Survey
+            </Typography>
             <TextField
               placeholder="Enter Your First Name"
               label="First Name"

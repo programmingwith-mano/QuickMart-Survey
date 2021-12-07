@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
-import FormPersonalDetails from './FormPersonalDetails';
+import ProductList from './ProductList';
 import Confirm from './Confirm';
 import Success from './Success';
 
@@ -52,7 +52,7 @@ export class UserForm extends Component {
         );
       case 2:
         return (
-          <FormPersonalDetails
+          <ProductList
             nextStep={this.nextStep}
             prevStep={this.prevStep}
             handleChange={this.handleChange}
